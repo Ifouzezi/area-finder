@@ -1,0 +1,120 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    background-color: #FAFCFD;
+  }
+
+  input,
+  textarea {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+  }
+
+  a,
+  a:hover {
+    text-decoration: none;
+    color: $color-primary;
+  }
+  
+  h1, h2, h3, p {
+    margin: 0;
+  }
+
+ // Flexbox
+ .flex{
+  display: flex;
+  
+  &-jc-sb {
+    justify-content: space-between;
+  }
+
+  &-jc-c {
+    justify-content: center;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
+ }
+
+ // Spacing
+ .container {
+  padding-left: 16px;
+  padding-right: 16px;
+
+  @include breakpoint-up(medium){
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+ }
+
+ .overlayFlex {
+    display: flex;
+    flex-direction: row;
+ }
+
+ .overlayIcons {
+    align-items: center;
+    gap: 4px;
+ }
+
+ // Sizing
+ .engageCount {
+  font-size: 10px;
+  color: #8F95B2;
+  font-weight: 500;
+ }
+
+ // Buttons
+.button {
+  width: 146px;
+  height: 50px;
+  border-radius: 6px;
+  background-color: $color-primary;
+  color: $white; 
+  font-size: $font-med;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 16px 40px;
+  line-height: 1.1;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $darkBlue;
+    color: $white;
+  }
+
+  &:active {
+    background-color: $active;
+    color: $white;
+  }
+}
+
+// Visibility
+.hide-for-mobile {
+  @include breakpoint-up(medium) {
+    display: none;
+  }
+}
+
+.hide-for-desktop {
+  @include breakpoint-up(large) {
+    display: none;
+  }
+}

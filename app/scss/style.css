@@ -163,7 +163,8 @@ h1, h2, h3, p {
   }
 }
 .hero .trial {
-  background: red;
+  background: blue;
+  width: 326px;
 }
 .hero__text {
   margin-bottom: 24px;

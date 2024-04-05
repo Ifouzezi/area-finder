@@ -6,6 +6,7 @@
     font-weight: 700;
     line-height: 1.25;
     margin-bottom: 16px;
+    width: 12ch;
 
     @include breakpoint-up(medium){
       font-size: $font-headingD;

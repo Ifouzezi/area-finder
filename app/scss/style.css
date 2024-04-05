@@ -16,6 +16,7 @@ body {
   font-weight: 300;
   line-height: 1.6;
   background-color: #FAFCFD;
+  width: 100%;
 }
 
 input,
@@ -150,6 +151,7 @@ h1, h2, h3, p {
   font-weight: 700;
   line-height: 1.25;
   margin-bottom: 16px;
+  width: 12ch;
 }
 @media (min-width: 40em) {
   .hero__title {

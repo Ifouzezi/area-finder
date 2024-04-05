@@ -61,7 +61,7 @@
     }
     
     textarea::placeholder,
-    input[type="text"]::placeholder {
+    input::placeholder {
       color: $placeholder;
       font-size: $font-sm;
 

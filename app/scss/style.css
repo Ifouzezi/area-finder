@@ -201,19 +201,21 @@ h1, h2, h3, p {
   outline: none;
   border: 1px solid #557FF2;
 }
-.hero__search::-moz-placeholder {
+.hero__search textarea::-moz-placeholder, .hero__search input::-moz-placeholder {
   color: #484851;
   font-size: 0.875rem;
 }
-.hero__search::placeholder {
+.hero__search textarea::placeholder,
+.hero__search input::placeholder {
   color: #484851;
   font-size: 0.875rem;
 }
 @media (min-width: 40em) {
-  .hero__search::-moz-placeholder {
+  .hero__search textarea::-moz-placeholder, .hero__search input::-moz-placeholder {
     line-height: 18;
   }
-  .hero__search::placeholder {
+  .hero__search textarea::placeholder,
+  .hero__search input::placeholder {
     line-height: 18;
   }
 }

@@ -60,7 +60,8 @@
       border: 1px solid $color-primary;
     }
     
-    &::placeholder {
+    textarea::placeholder,
+    input[type="text"]::placeholder {
       color: $placeholder;
       font-size: $font-sm;
 

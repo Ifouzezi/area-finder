@@ -52,13 +52,13 @@ h1, h2, h3, p {
 }
 
 .container {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 @media (min-width: 40em) {
   .container {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
   }
 }
 
@@ -163,7 +163,7 @@ h1, h2, h3, p {
   }
 }
 .hero .trial {
-  background: green;
+  background: red;
 }
 .hero__text {
   margin-bottom: 24px;
@@ -193,7 +193,7 @@ h1, h2, h3, p {
 }
 .hero__search {
   width: 100%;
-  height: 50px;
+  height: 3.125rem;
   border-radius: 6px;
   border: 1px solid #D4DCF1;
 }
@@ -225,10 +225,10 @@ h1, h2, h3, p {
   }
 }
 .hero textarea, .hero input {
-  padding-left: 38px;
-  padding-right: 12px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-left: 2.375rem;
+  padding-right: 0.75rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .hero__searchIcon {
   position: absolute;

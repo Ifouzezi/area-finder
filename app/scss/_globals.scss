@@ -56,12 +56,12 @@ html {
 
  // Spacing
  .container {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 
   @include breakpoint-up(medium){
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
   }
  }
 

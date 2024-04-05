@@ -162,6 +162,9 @@ h1, h2, h3, p {
     width: 12ch;
   }
 }
+.hero .trial {
+  background: green;
+}
 .hero__text {
   margin-bottom: 24px;
   width: 34ch;

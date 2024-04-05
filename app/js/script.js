@@ -111,7 +111,7 @@ function createCard(user, time, city, text, likes, dislikes, comments, networkIm
             </div>
             <img 
                 src="${networkImage}" 
-                alt="network" 
+                alt="" 
                 class="hero__overlayNetwork"
                 width="36px"
                 height="10px"

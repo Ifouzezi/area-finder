@@ -20,13 +20,13 @@
   }
 
   .trial {
-    width: 326px;
+    width: 20.375rem;
   }
 
 
   &__text {
     margin-bottom: 24px;
-    width: 34ch;
+    width: 20.375rem;
 
     @include breakpoint-up(medium){
       font-size: $font-sizeD;

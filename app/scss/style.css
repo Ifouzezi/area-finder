@@ -162,11 +162,11 @@ h1, h2, h3, p {
   }
 }
 .hero .trial {
-  width: 326px;
+  width: 20.375rem;
 }
 .hero__text {
   margin-bottom: 24px;
-  width: 34ch;
+  width: 20.375rem;
 }
 @media (min-width: 40em) {
   .hero__text {

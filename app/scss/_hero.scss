@@ -7,7 +7,7 @@
     line-height: 1.25;
     margin-bottom: 16px;
     width: 12ch;
-    width: 326px;
+    
 
     @include breakpoint-up(medium){
       font-size: $font-headingD;
@@ -20,7 +20,6 @@
   }
 
   .trial {
-    background: orange;
     width: 326px;
   }
 

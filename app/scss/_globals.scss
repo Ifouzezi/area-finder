@@ -56,8 +56,7 @@ html {
 
  // Spacing
  .container {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 1rem;
 
   @include breakpoint-up(medium){
     padding-left: 6.25rem;

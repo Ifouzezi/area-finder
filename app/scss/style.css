@@ -189,7 +189,7 @@ h1, h2, h3, p {
   position: relative;
 }
 .hero__search {
-  width: 343px;
+  width: 100%;
   height: 50px;
   border-radius: 6px;
   border: 1px solid #D4DCF1;

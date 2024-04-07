@@ -95,14 +95,14 @@
 
   &__cancelInput {
     position: absolute;
-    right: 54px;
+    right: 12px;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
 
     @include breakpoint-up(medium){
       position: absolute;
-      right: 3%;
+      right: -67%;
       top: 50%;
       transform: translateY(-50%);
       cursor: pointer;
